@@ -1,0 +1,53 @@
+.out{
+    width: 35%;
+    /* max-width: 20rem; */
+    height: fit-content;
+    background-color: rgb(48, 0, 71);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: fixed;
+    left: 31.2%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+canvas{
+    border-radius: 1rem;
+}
+
+body{
+    background-color: rgb(20,0,20);
+}
+
+.moves{
+    position: relative;
+    display: flex;
+    margin: 0rem 0rem 0rem 0rem;
+    flex-direction: row;
+    height: 1rem;
+    z-index: 2;
+    width: fit-content;
+}
+
+.spot{
+    border-radius: 1rem;
+    margin-left: 0.4rem;
+    /* position: relative; */
+    /* left: 1rem; */
+    background-color: violet;
+}
+
+.moveContainer{
+    position: fixed;
+    width: 100%;
+    bottom: 1rem;
+    /* left: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: white; */
+}
